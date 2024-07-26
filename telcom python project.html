@@ -1,0 +1,1664 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>83c01d2a59cc4f2180e3eb35bdd38876</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="teleco-customer-churn-prediction" class="cell markdown"
+id="jK1o0KJWcYn3">
+<h1><strong>Teleco</strong> <strong>Customer</strong>
+<strong>Churn</strong> <strong>Prediction</strong></h1>
+<h2 id="introduction"><strong>Introduction</strong></h2>
+<h3 id="project-overview"><strong>Project</strong>
+<strong>Overview</strong></h3>
+<p>This project aims to predict customer churn in the telecommunications
+industry. By analyzing various features of customer data, we aim to
+build a predictive model to identify customers who are likely to churn.
+This can help the company take proactive measures to retain these
+customers.</p>
+<h3 id="problem-statement"><strong>Problem</strong>
+<strong>Statement</strong></h3>
+<p>The telecommunications company is experiencing a high rate of
+customer churn, which impacts revenue and profitability. The goal is to
+develop a machine learning model that accurately predicts whether a
+customer will churn based on their usage patterns, demographic
+information, and other relevant features.</p>
+<h3 id="objectives"><strong>Objectives</strong></h3>
+<ol>
+<li>Analyze the customer dataset to understand key factors contributing
+to churn.</li>
+<li>Preprocess and clean the data to prepare it for modeling.</li>
+<li>Build and evaluate multiple machine learning models to predict
+customer churn.</li>
+<li>Interpret the results and provide actionable insights to reduce
+churn rates.</li>
+</ol>
+</section>
+<div class="cell markdown" id="BLXLCnsQeQ0s">
+<p><strong>Data</strong> <strong>Loading</strong> <strong>and</strong>
+<strong>Preprocessing</strong></p>
+</div>
+<div class="cell code" data-execution_count="2"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="naje0V5hdh7S" data-outputId="a07fef18-1cb0-42bb-9e22-b8eaacd77cf7">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import necessary libraries</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> zipfile</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> os</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> google.colab <span class="im">import</span> files</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Upload the zip file</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>uploaded <span class="op">=</span> files.upload()</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Get the name of the uploaded file</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>zip_filename <span class="op">=</span> <span class="bu">list</span>(uploaded.keys())[<span class="dv">0</span>]</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the extraction directory</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>extraction_dir <span class="op">=</span> <span class="st">&#39;/content/&#39;</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Unzip the file</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> zipfile.ZipFile(zip_filename, <span class="st">&#39;r&#39;</span>) <span class="im">as</span> zip_ref:</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a>    zip_ref.extractall(extraction_dir)</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="co"># Find the extracted file</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a>extracted_files <span class="op">=</span> [f <span class="cf">for</span> f <span class="kw">in</span> os.listdir(extraction_dir) <span class="cf">if</span> f.endswith(<span class="st">&#39;.xlsx&#39;</span>)]</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a>xlsx_file <span class="op">=</span> os.path.join(extraction_dir, extracted_files[<span class="dv">0</span>])</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="co"># Load the dataset into a DataFrame</span></span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_excel(xlsx_file)</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Display basic information about the dataset</span></span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;DataFrame Shape:&quot;</span>, df.shape)</span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;DataFrame Info:&quot;</span>)</span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a>df.info()</span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the first few rows of the dataset</span></span>
+<span id="cb1-33"><a href="#cb1-33" aria-hidden="true" tabindex="-1"></a>df.head()</span></code></pre></div>
+<div class="output display_data">
+
+     <input type="file" id="files-a1a5057b-6143-48c0-a89e-f3a6b6b37865" name="files[]" multiple disabled
+        style="border:none" />
+     <output id="result-a1a5057b-6143-48c0-a89e-f3a6b6b37865">
+      Upload widget is only available when the cell has been executed in the
+      current browser session. Please rerun this cell to enable.
+      </output>
+      <script>// Copyright 2017 Google LLC
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//      http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
+/**
+ * @fileoverview Helpers for google.colab Python module.
+ */
+(function(scope) {
+function span(text, styleAttributes = {}) {
+  const element = document.createElement('span');
+  element.textContent = text;
+  for (const key of Object.keys(styleAttributes)) {
+    element.style[key] = styleAttributes[key];
+  }
+  return element;
+}
+
+// Max number of bytes which will be uploaded at a time.
+const MAX_PAYLOAD_SIZE = 100 * 1024;
+
+function _uploadFiles(inputId, outputId) {
+  const steps = uploadFilesStep(inputId, outputId);
+  const outputElement = document.getElementById(outputId);
+  // Cache steps on the outputElement to make it available for the next call
+  // to uploadFilesContinue from Python.
+  outputElement.steps = steps;
+
+  return _uploadFilesContinue(outputId);
+}
+
+// This is roughly an async generator (not supported in the browser yet),
+// where there are multiple asynchronous steps and the Python side is going
+// to poll for completion of each step.
+// This uses a Promise to block the python side on completion of each step,
+// then passes the result of the previous step as the input to the next step.
+function _uploadFilesContinue(outputId) {
+  const outputElement = document.getElementById(outputId);
+  const steps = outputElement.steps;
+
+  const next = steps.next(outputElement.lastPromiseValue);
+  return Promise.resolve(next.value.promise).then((value) => {
+    // Cache the last promise value to make it available to the next
+    // step of the generator.
+    outputElement.lastPromiseValue = value;
+    return next.value.response;
+  });
+}
+
+/**
+ * Generator function which is called between each async step of the upload
+ * process.
+ * @param {string} inputId Element ID of the input file picker element.
+ * @param {string} outputId Element ID of the output display.
+ * @return {!Iterable<!Object>} Iterable of next steps.
+ */
+function* uploadFilesStep(inputId, outputId) {
+  const inputElement = document.getElementById(inputId);
+  inputElement.disabled = false;
+
+  const outputElement = document.getElementById(outputId);
+  outputElement.innerHTML = '';
+
+  const pickedPromise = new Promise((resolve) => {
+    inputElement.addEventListener('change', (e) => {
+      resolve(e.target.files);
+    });
+  });
+
+  const cancel = document.createElement('button');
+  inputElement.parentElement.appendChild(cancel);
+  cancel.textContent = 'Cancel upload';
+  const cancelPromise = new Promise((resolve) => {
+    cancel.onclick = () => {
+      resolve(null);
+    };
+  });
+
+  // Wait for the user to pick the files.
+  const files = yield {
+    promise: Promise.race([pickedPromise, cancelPromise]),
+    response: {
+      action: 'starting',
+    }
+  };
+
+  cancel.remove();
+
+  // Disable the input element since further picks are not allowed.
+  inputElement.disabled = true;
+
+  if (!files) {
+    return {
+      response: {
+        action: 'complete',
+      }
+    };
+  }
+
+  for (const file of files) {
+    const li = document.createElement('li');
+    li.append(span(file.name, {fontWeight: 'bold'}));
+    li.append(span(
+        `(${file.type || 'n/a'}) - ${file.size} bytes, ` +
+        `last modified: ${
+            file.lastModifiedDate ? file.lastModifiedDate.toLocaleDateString() :
+                                    'n/a'} - `));
+    const percent = span('0% done');
+    li.appendChild(percent);
+
+    outputElement.appendChild(li);
+
+    const fileDataPromise = new Promise((resolve) => {
+      const reader = new FileReader();
+      reader.onload = (e) => {
+        resolve(e.target.result);
+      };
+      reader.readAsArrayBuffer(file);
+    });
+    // Wait for the data to be ready.
+    let fileData = yield {
+      promise: fileDataPromise,
+      response: {
+        action: 'continue',
+      }
+    };
+
+    // Use a chunked sending to avoid message size limits. See b/62115660.
+    let position = 0;
+    do {
+      const length = Math.min(fileData.byteLength - position, MAX_PAYLOAD_SIZE);
+      const chunk = new Uint8Array(fileData, position, length);
+      position += length;
+
+      const base64 = btoa(String.fromCharCode.apply(null, chunk));
+      yield {
+        response: {
+          action: 'append',
+          file: file.name,
+          data: base64,
+        },
+      };
+
+      let percentDone = fileData.byteLength === 0 ?
+          100 :
+          Math.round((position / fileData.byteLength) * 100);
+      percent.textContent = `${percentDone}% done`;
+
+    } while (position < fileData.byteLength);
+  }
+
+  // All done.
+  yield {
+    response: {
+      action: 'complete',
+    }
+  };
+}
+
+scope.google = scope.google || {};
+scope.google.colab = scope.google.colab || {};
+scope.google.colab._files = {
+  _uploadFiles,
+  _uploadFilesContinue,
+};
+})(self);
+</script> 
+</div>
+<div class="output stream stdout">
+<pre><code>Saving Telco_customer_churn.xlsx (1).zip to Telco_customer_churn.xlsx (1).zip
+DataFrame Shape: (7043, 33)
+DataFrame Info:
+&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 7043 entries, 0 to 7042
+Data columns (total 33 columns):
+ #   Column             Non-Null Count  Dtype  
+---  ------             --------------  -----  
+ 0   CustomerID         7043 non-null   object 
+ 1   Count              7043 non-null   int64  
+ 2   Country            7043 non-null   object 
+ 3   State              7043 non-null   object 
+ 4   City               7043 non-null   object 
+ 5   Zip Code           7043 non-null   int64  
+ 6   Lat Long           7043 non-null   object 
+ 7   Latitude           7043 non-null   float64
+ 8   Longitude          7043 non-null   float64
+ 9   Gender             7043 non-null   object 
+ 10  Senior Citizen     7043 non-null   object 
+ 11  Partner            7043 non-null   object 
+ 12  Dependents         7043 non-null   object 
+ 13  Tenure Months      7043 non-null   int64  
+ 14  Phone Service      7043 non-null   object 
+ 15  Multiple Lines     7043 non-null   object 
+ 16  Internet Service   7043 non-null   object 
+ 17  Online Security    7043 non-null   object 
+ 18  Online Backup      7043 non-null   object 
+ 19  Device Protection  7043 non-null   object 
+ 20  Tech Support       7043 non-null   object 
+ 21  Streaming TV       7043 non-null   object 
+ 22  Streaming Movies   7043 non-null   object 
+ 23  Contract           7043 non-null   object 
+ 24  Paperless Billing  7043 non-null   object 
+ 25  Payment Method     7043 non-null   object 
+ 26  Monthly Charges    7043 non-null   float64
+ 27  Total Charges      7043 non-null   object 
+ 28  Churn Label        7043 non-null   object 
+ 29  Churn Value        7043 non-null   int64  
+ 30  Churn Score        7043 non-null   int64  
+ 31  CLTV               7043 non-null   int64  
+ 32  Churn Reason       1869 non-null   object 
+dtypes: float64(3), int64(6), object(24)
+memory usage: 1.8+ MB
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="2">
+
+  <div id="df-66ebaa25-3fea-44c4-b8e6-ff95c2524c34" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>CustomerID</th>
+      <th>Count</th>
+      <th>Country</th>
+      <th>State</th>
+      <th>City</th>
+      <th>Zip Code</th>
+      <th>Lat Long</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+      <th>Gender</th>
+      <th>...</th>
+      <th>Contract</th>
+      <th>Paperless Billing</th>
+      <th>Payment Method</th>
+      <th>Monthly Charges</th>
+      <th>Total Charges</th>
+      <th>Churn Label</th>
+      <th>Churn Value</th>
+      <th>Churn Score</th>
+      <th>CLTV</th>
+      <th>Churn Reason</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>3668-QPYBK</td>
+      <td>1</td>
+      <td>United States</td>
+      <td>California</td>
+      <td>Los Angeles</td>
+      <td>90003</td>
+      <td>33.964131, -118.272783</td>
+      <td>33.964131</td>
+      <td>-118.272783</td>
+      <td>Male</td>
+      <td>...</td>
+      <td>Month-to-month</td>
+      <td>Yes</td>
+      <td>Mailed check</td>
+      <td>53.85</td>
+      <td>108.15</td>
+      <td>Yes</td>
+      <td>1</td>
+      <td>86</td>
+      <td>3239</td>
+      <td>Competitor made better offer</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>9237-HQITU</td>
+      <td>1</td>
+      <td>United States</td>
+      <td>California</td>
+      <td>Los Angeles</td>
+      <td>90005</td>
+      <td>34.059281, -118.30742</td>
+      <td>34.059281</td>
+      <td>-118.307420</td>
+      <td>Female</td>
+      <td>...</td>
+      <td>Month-to-month</td>
+      <td>Yes</td>
+      <td>Electronic check</td>
+      <td>70.70</td>
+      <td>151.65</td>
+      <td>Yes</td>
+      <td>1</td>
+      <td>67</td>
+      <td>2701</td>
+      <td>Moved</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>9305-CDSKC</td>
+      <td>1</td>
+      <td>United States</td>
+      <td>California</td>
+      <td>Los Angeles</td>
+      <td>90006</td>
+      <td>34.048013, -118.293953</td>
+      <td>34.048013</td>
+      <td>-118.293953</td>
+      <td>Female</td>
+      <td>...</td>
+      <td>Month-to-month</td>
+      <td>Yes</td>
+      <td>Electronic check</td>
+      <td>99.65</td>
+      <td>820.5</td>
+      <td>Yes</td>
+      <td>1</td>
+      <td>86</td>
+      <td>5372</td>
+      <td>Moved</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>7892-POOKP</td>
+      <td>1</td>
+      <td>United States</td>
+      <td>California</td>
+      <td>Los Angeles</td>
+      <td>90010</td>
+      <td>34.062125, -118.315709</td>
+      <td>34.062125</td>
+      <td>-118.315709</td>
+      <td>Female</td>
+      <td>...</td>
+      <td>Month-to-month</td>
+      <td>Yes</td>
+      <td>Electronic check</td>
+      <td>104.80</td>
+      <td>3046.05</td>
+      <td>Yes</td>
+      <td>1</td>
+      <td>84</td>
+      <td>5003</td>
+      <td>Moved</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0280-XJGEX</td>
+      <td>1</td>
+      <td>United States</td>
+      <td>California</td>
+      <td>Los Angeles</td>
+      <td>90015</td>
+      <td>34.039224, -118.266293</td>
+      <td>34.039224</td>
+      <td>-118.266293</td>
+      <td>Male</td>
+      <td>...</td>
+      <td>Month-to-month</td>
+      <td>Yes</td>
+      <td>Bank transfer (automatic)</td>
+      <td>103.70</td>
+      <td>5036.3</td>
+      <td>Yes</td>
+      <td>1</td>
+      <td>89</td>
+      <td>5340</td>
+      <td>Competitor had better devices</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 33 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-66ebaa25-3fea-44c4-b8e6-ff95c2524c34')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-66ebaa25-3fea-44c4-b8e6-ff95c2524c34 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-66ebaa25-3fea-44c4-b8e6-ff95c2524c34');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-9b0243ff-bb66-4f76-8508-243d19da56dc">
+  <button class="colab-df-quickchart" onclick="quickchart('df-9b0243ff-bb66-4f76-8508-243d19da56dc')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-9b0243ff-bb66-4f76-8508-243d19da56dc button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<section id="data-cleaning" class="cell markdown" id="jX0gIDyGera6">
+<h2><strong>Data</strong> <strong>Cleaning</strong></h2>
+<p>Handling missing values and converting categorical columns to
+category type.</p>
+</section>
+<div class="cell code" data-execution_count="3"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="_Rnt27AQevyn" data-outputId="8a68c30c-da68-4748-a196-2ef8b297d202">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Handling missing values by imputing with the mode for categorical data</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&#39;Churn Reason&#39;</span>].fillna(df[<span class="st">&#39;Churn Reason&#39;</span>].mode()[<span class="dv">0</span>], inplace<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Verify if missing values are handled</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Missing Values in Each Column After Imputation:&quot;</span>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.isnull().<span class="bu">sum</span>())</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert categorical columns to category type if necessary</span></span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>categorical_columns <span class="op">=</span> df.select_dtypes(include<span class="op">=</span>[<span class="st">&#39;object&#39;</span>]).columns</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> categorical_columns:</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>    df[col] <span class="op">=</span> df[col].astype(<span class="st">&#39;category&#39;</span>)</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Display basic information about the cleaned dataset</span></span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Cleaned DataFrame Shape:&quot;</span>, df.shape)</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>df.info()</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Display the first few rows of the cleaned dataset</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>df.head()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Missing Values in Each Column After Imputation:
+CustomerID           0
+Count                0
+Country              0
+State                0
+City                 0
+Zip Code             0
+Lat Long             0
+Latitude             0
+Longitude            0
+Gender               0
+Senior Citizen       0
+Partner              0
+Dependents           0
+Tenure Months        0
+Phone Service        0
+Multiple Lines       0
+Internet Service     0
+Online Security      0
+Online Backup        0
+Device Protection    0
+Tech Support         0
+Streaming TV         0
+Streaming Movies     0
+Contract             0
+Paperless Billing    0
+Payment Method       0
+Monthly Charges      0
+Total Charges        0
+Churn Label          0
+Churn Value          0
+Churn Score          0
+CLTV                 0
+Churn Reason         0
+dtype: int64
+Cleaned DataFrame Shape: (7043, 33)
+&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 7043 entries, 0 to 7042
+Data columns (total 33 columns):
+ #   Column             Non-Null Count  Dtype   
+---  ------             --------------  -----   
+ 0   CustomerID         7043 non-null   category
+ 1   Count              7043 non-null   int64   
+ 2   Country            7043 non-null   category
+ 3   State              7043 non-null   category
+ 4   City               7043 non-null   category
+ 5   Zip Code           7043 non-null   int64   
+ 6   Lat Long           7043 non-null   category
+ 7   Latitude           7043 non-null   float64 
+ 8   Longitude          7043 non-null   float64 
+ 9   Gender             7043 non-null   category
+ 10  Senior Citizen     7043 non-null   category
+ 11  Partner            7043 non-null   category
+ 12  Dependents         7043 non-null   category
+ 13  Tenure Months      7043 non-null   int64   
+ 14  Phone Service      7043 non-null   category
+ 15  Multiple Lines     7043 non-null   category
+ 16  Internet Service   7043 non-null   category
+ 17  Online Security    7043 non-null   category
+ 18  Online Backup      7043 non-null   category
+ 19  Device Protection  7043 non-null   category
+ 20  Tech Support       7043 non-null   category
+ 21  Streaming TV       7043 non-null   category
+ 22  Streaming Movies   7043 non-null   category
+ 23  Contract           7043 non-null   category
+ 24  Paperless Billing  7043 non-null   category
+ 25  Payment Method     7043 non-null   category
+ 26  Monthly Charges    7043 non-null   float64 
+ 27  Total Charges      7043 non-null   category
+ 28  Churn Label        7043 non-null   category
+ 29  Churn Value        7043 non-null   int64   
+ 30  Churn Score        7043 non-null   int64   
+ 31  CLTV               7043 non-null   int64   
+ 32  Churn Reason       7043 non-null   category
+dtypes: category(24), float64(3), int64(6)
+memory usage: 1.4 MB
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="3">
+
+  <div id="df-bb8139d1-27bc-409d-8065-744b6a7d5bc9" class="colab-df-container">
+    <div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>CustomerID</th>
+      <th>Count</th>
+      <th>Country</th>
+      <th>State</th>
+      <th>City</th>
+      <th>Zip Code</th>
+      <th>Lat Long</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+      <th>Gender</th>
+      <th>...</th>
+      <th>Contract</th>
+      <th>Paperless Billing</th>
+      <th>Payment Method</th>
+      <th>Monthly Charges</th>
+      <th>Total Charges</th>
+      <th>Churn Label</th>
+      <th>Churn Value</th>
+      <th>Churn Score</th>
+      <th>CLTV</th>
+      <th>Churn Reason</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>3668-QPYBK</td>
+      <td>1</td>
+      <td>United States</td>
+      <td>California</td>
+      <td>Los Angeles</td>
+      <td>90003</td>
+      <td>33.964131, -118.272783</td>
+      <td>33.964131</td>
+      <td>-118.272783</td>
+      <td>Male</td>
+      <td>...</td>
+      <td>Month-to-month</td>
+      <td>Yes</td>
+      <td>Mailed check</td>
+      <td>53.85</td>
+      <td>108.15</td>
+      <td>Yes</td>
+      <td>1</td>
+      <td>86</td>
+      <td>3239</td>
+      <td>Competitor made better offer</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>9237-HQITU</td>
+      <td>1</td>
+      <td>United States</td>
+      <td>California</td>
+      <td>Los Angeles</td>
+      <td>90005</td>
+      <td>34.059281, -118.30742</td>
+      <td>34.059281</td>
+      <td>-118.307420</td>
+      <td>Female</td>
+      <td>...</td>
+      <td>Month-to-month</td>
+      <td>Yes</td>
+      <td>Electronic check</td>
+      <td>70.70</td>
+      <td>151.65</td>
+      <td>Yes</td>
+      <td>1</td>
+      <td>67</td>
+      <td>2701</td>
+      <td>Moved</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>9305-CDSKC</td>
+      <td>1</td>
+      <td>United States</td>
+      <td>California</td>
+      <td>Los Angeles</td>
+      <td>90006</td>
+      <td>34.048013, -118.293953</td>
+      <td>34.048013</td>
+      <td>-118.293953</td>
+      <td>Female</td>
+      <td>...</td>
+      <td>Month-to-month</td>
+      <td>Yes</td>
+      <td>Electronic check</td>
+      <td>99.65</td>
+      <td>820.5</td>
+      <td>Yes</td>
+      <td>1</td>
+      <td>86</td>
+      <td>5372</td>
+      <td>Moved</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>7892-POOKP</td>
+      <td>1</td>
+      <td>United States</td>
+      <td>California</td>
+      <td>Los Angeles</td>
+      <td>90010</td>
+      <td>34.062125, -118.315709</td>
+      <td>34.062125</td>
+      <td>-118.315709</td>
+      <td>Female</td>
+      <td>...</td>
+      <td>Month-to-month</td>
+      <td>Yes</td>
+      <td>Electronic check</td>
+      <td>104.80</td>
+      <td>3046.05</td>
+      <td>Yes</td>
+      <td>1</td>
+      <td>84</td>
+      <td>5003</td>
+      <td>Moved</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>0280-XJGEX</td>
+      <td>1</td>
+      <td>United States</td>
+      <td>California</td>
+      <td>Los Angeles</td>
+      <td>90015</td>
+      <td>34.039224, -118.266293</td>
+      <td>34.039224</td>
+      <td>-118.266293</td>
+      <td>Male</td>
+      <td>...</td>
+      <td>Month-to-month</td>
+      <td>Yes</td>
+      <td>Bank transfer (automatic)</td>
+      <td>103.70</td>
+      <td>5036.3</td>
+      <td>Yes</td>
+      <td>1</td>
+      <td>89</td>
+      <td>5340</td>
+      <td>Competitor had better devices</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 33 columns</p>
+</div>
+    <div class="colab-df-buttons">
+
+  <div class="colab-df-container">
+    <button class="colab-df-convert" onclick="convertToInteractive('df-bb8139d1-27bc-409d-8065-744b6a7d5bc9')"
+            title="Convert this dataframe to an interactive table."
+            style="display:none;">
+
+  <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960">
+    <path d="M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z"/>
+  </svg>
+    </button>
+
+  <style>
+    .colab-df-container {
+      display:flex;
+      gap: 12px;
+    }
+
+    .colab-df-convert {
+      background-color: #E8F0FE;
+      border: none;
+      border-radius: 50%;
+      cursor: pointer;
+      display: none;
+      fill: #1967D2;
+      height: 32px;
+      padding: 0 0 0 0;
+      width: 32px;
+    }
+
+    .colab-df-convert:hover {
+      background-color: #E2EBFA;
+      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+      fill: #174EA6;
+    }
+
+    .colab-df-buttons div {
+      margin-bottom: 4px;
+    }
+
+    [theme=dark] .colab-df-convert {
+      background-color: #3B4455;
+      fill: #D2E3FC;
+    }
+
+    [theme=dark] .colab-df-convert:hover {
+      background-color: #434B5C;
+      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));
+      fill: #FFFFFF;
+    }
+  </style>
+
+    <script>
+      const buttonEl =
+        document.querySelector('#df-bb8139d1-27bc-409d-8065-744b6a7d5bc9 button.colab-df-convert');
+      buttonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+
+      async function convertToInteractive(key) {
+        const element = document.querySelector('#df-bb8139d1-27bc-409d-8065-744b6a7d5bc9');
+        const dataTable =
+          await google.colab.kernel.invokeFunction('convertToInteractive',
+                                                    [key], {});
+        if (!dataTable) return;
+
+        const docLinkHtml = 'Like what you see? Visit the ' +
+          '<a target="_blank" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'
+          + ' to learn more about interactive tables.';
+        element.innerHTML = '';
+        dataTable['output_type'] = 'display_data';
+        await google.colab.output.renderOutput(dataTable, element);
+        const docLink = document.createElement('div');
+        docLink.innerHTML = docLinkHtml;
+        element.appendChild(docLink);
+      }
+    </script>
+  </div>
+
+
+<div id="df-49d5162f-1ab0-450e-988e-b49d072a1a4f">
+  <button class="colab-df-quickchart" onclick="quickchart('df-49d5162f-1ab0-450e-988e-b49d072a1a4f')"
+            title="Suggest charts"
+            style="display:none;">
+
+<svg xmlns="http://www.w3.org/2000/svg" height="24px"viewBox="0 0 24 24"
+     width="24px">
+    <g>
+        <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
+    </g>
+</svg>
+  </button>
+
+<style>
+  .colab-df-quickchart {
+      --bg-color: #E8F0FE;
+      --fill-color: #1967D2;
+      --hover-bg-color: #E2EBFA;
+      --hover-fill-color: #174EA6;
+      --disabled-fill-color: #AAA;
+      --disabled-bg-color: #DDD;
+  }
+
+  [theme=dark] .colab-df-quickchart {
+      --bg-color: #3B4455;
+      --fill-color: #D2E3FC;
+      --hover-bg-color: #434B5C;
+      --hover-fill-color: #FFFFFF;
+      --disabled-bg-color: #3B4455;
+      --disabled-fill-color: #666;
+  }
+
+  .colab-df-quickchart {
+    background-color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    fill: var(--fill-color);
+    height: 32px;
+    padding: 0;
+    width: 32px;
+  }
+
+  .colab-df-quickchart:hover {
+    background-color: var(--hover-bg-color);
+    box-shadow: 0 1px 2px rgba(60, 64, 67, 0.3), 0 1px 3px 1px rgba(60, 64, 67, 0.15);
+    fill: var(--button-hover-fill-color);
+  }
+
+  .colab-df-quickchart-complete:disabled,
+  .colab-df-quickchart-complete:disabled:hover {
+    background-color: var(--disabled-bg-color);
+    fill: var(--disabled-fill-color);
+    box-shadow: none;
+  }
+
+  .colab-df-spinner {
+    border: 2px solid var(--fill-color);
+    border-color: transparent;
+    border-bottom-color: var(--fill-color);
+    animation:
+      spin 1s steps(1) infinite;
+  }
+
+  @keyframes spin {
+    0% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+      border-left-color: var(--fill-color);
+    }
+    20% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    30% {
+      border-color: transparent;
+      border-left-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+      border-right-color: var(--fill-color);
+    }
+    40% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-top-color: var(--fill-color);
+    }
+    60% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+    }
+    80% {
+      border-color: transparent;
+      border-right-color: var(--fill-color);
+      border-bottom-color: var(--fill-color);
+    }
+    90% {
+      border-color: transparent;
+      border-bottom-color: var(--fill-color);
+    }
+  }
+</style>
+
+  <script>
+    async function quickchart(key) {
+      const quickchartButtonEl =
+        document.querySelector('#' + key + ' button');
+      quickchartButtonEl.disabled = true;  // To prevent multiple clicks.
+      quickchartButtonEl.classList.add('colab-df-spinner');
+      try {
+        const charts = await google.colab.kernel.invokeFunction(
+            'suggestCharts', [key], {});
+      } catch (error) {
+        console.error('Error during call to suggestCharts:', error);
+      }
+      quickchartButtonEl.classList.remove('colab-df-spinner');
+      quickchartButtonEl.classList.add('colab-df-quickchart-complete');
+    }
+    (() => {
+      let quickchartButtonEl =
+        document.querySelector('#df-49d5162f-1ab0-450e-988e-b49d072a1a4f button');
+      quickchartButtonEl.style.display =
+        google.colab.kernel.accessAllowed ? 'block' : 'none';
+    })();
+  </script>
+</div>
+
+    </div>
+  </div>
+
+</div>
+</div>
+<div class="cell markdown" id="hK1G8LoGdhPv">
+
+</div>
+<section id="exploratory-data-analysis-eda" class="cell markdown"
+id="33bPCJsefH7Y">
+<h2><strong>Exploratory</strong> <strong>Data</strong>
+<strong>Analysis</strong> (<strong>EDA</strong>)</h2>
+<p>Visualizing the distribution of the target variable and the
+relationships between numerical features and the target variable.</p>
+</section>
+<div class="cell code" data-execution_count="4"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;,&quot;height&quot;:1000}"
+id="IsHb6cPnfORK" data-outputId="2ad49c73-aaa7-482d-ff55-a342cb3dc70a">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Import necessary libraries for visualization</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Set the aesthetic style of the plots</span></span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>sns.set_style(<span class="st">&quot;whitegrid&quot;</span>)</span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the distribution of the target variable (Churn Label)</span></span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>sns.countplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">&#39;Churn Label&#39;</span>)</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Distribution of Churn&#39;</span>)</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot the correlation heatmap for numerical features</span></span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">8</span>))</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>numerical_columns <span class="op">=</span> df.select_dtypes(include<span class="op">=</span>[<span class="st">&#39;float64&#39;</span>, <span class="st">&#39;int64&#39;</span>]).columns</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>corr_matrix <span class="op">=</span> df[numerical_columns].corr()</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>sns.heatmap(corr_matrix, annot<span class="op">=</span><span class="va">True</span>, cmap<span class="op">=</span><span class="st">&#39;coolwarm&#39;</span>)</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Correlation Heatmap&#39;</span>)</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualize the distribution of numerical features</span></span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>df[numerical_columns].hist(bins<span class="op">=</span><span class="dv">15</span>, figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">10</span>), layout<span class="op">=</span>(<span class="dv">3</span>, <span class="dv">3</span>))</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>plt.suptitle(<span class="st">&#39;Distribution of Numerical Features&#39;</span>)</span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>plt.show()</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualize relationships between numerical features and the target variable</span></span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> numerical_columns:</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a>    plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>    sns.boxplot(data<span class="op">=</span>df, x<span class="op">=</span><span class="st">&#39;Churn Label&#39;</span>, y<span class="op">=</span>col)</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f&#39;Relationship between Churn and </span><span class="sc">{</span>col<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>    plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_1b5cbf58e07e4822b4858e086f46c860/0c182008a345e5dc954108e5f98dcd922b9e0456.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_1b5cbf58e07e4822b4858e086f46c860/8fb1ec2d90c59b88ffc378b6ff63c29979217ed0.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_1b5cbf58e07e4822b4858e086f46c860/1c8d146b9579bdcb997761b640baf1b59e801286.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_1b5cbf58e07e4822b4858e086f46c860/79530b639c04a094034e3503a058fd4314ba68eb.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_1b5cbf58e07e4822b4858e086f46c860/cb3a946ad4c743b4ab1ed8b1a3c78c27d45576a2.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_1b5cbf58e07e4822b4858e086f46c860/5c952c6be59142b6069adf6708325dde73928274.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_1b5cbf58e07e4822b4858e086f46c860/16e2d45102cb81361ce909a1e5cf1df71db143b0.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_1b5cbf58e07e4822b4858e086f46c860/28cb924207d67058cf10a7fcc7ef9dcd6cda4da6.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_1b5cbf58e07e4822b4858e086f46c860/77ab193837d313d3a515d56b5b2c4718b45e6a08.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_1b5cbf58e07e4822b4858e086f46c860/92364925997c240b55f3f7e8bdbe8803a98f4e74.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_1b5cbf58e07e4822b4858e086f46c860/aa2b5eb4af78c911e0e17c14ed1c9af6f0a20680.png" /></p>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_1b5cbf58e07e4822b4858e086f46c860/148f0438a98e5af085bf00affa41f1d2d0b91af6.png" /></p>
+</div>
+</div>
+<section id="check-column-names" class="cell markdown"
+id="BcLEaTZ2g-hW">
+<h2><strong>Check</strong> <strong>Column</strong>
+<strong>Names</strong></h2>
+<p>Print the column names of the DataFrame after one-hot encoding to
+identify the correct target variable name.</p>
+</section>
+<div class="cell code" data-execution_count="7"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="yMzDMwh8hDMC" data-outputId="62f68266-3891-47cd-ad5f-b89ff04af314">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Check the column names of the encoded DataFrame</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>df_encoded.columns</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<pre><code>Index([&#39;Count&#39;, &#39;Zip Code&#39;, &#39;Latitude&#39;, &#39;Longitude&#39;, &#39;Tenure Months&#39;,
+       &#39;Monthly Charges&#39;, &#39;Churn Value&#39;, &#39;Churn Score&#39;, &#39;CLTV&#39;,
+       &#39;CustomerID_0003-MKNFE&#39;,
+       ...
+       &#39;Churn Reason_Lack of self-service on Website&#39;,
+       &#39;Churn Reason_Limited range of services&#39;,
+       &#39;Churn Reason_Long distance charges&#39;, &#39;Churn Reason_Moved&#39;,
+       &#39;Churn Reason_Network reliability&#39;,
+       &#39;Churn Reason_Poor expertise of online support&#39;,
+       &#39;Churn Reason_Poor expertise of phone support&#39;,
+       &#39;Churn Reason_Price too high&#39;, &#39;Churn Reason_Product dissatisfaction&#39;,
+       &#39;Churn Reason_Service dissatisfaction&#39;],
+      dtype=&#39;object&#39;, length=16407)</code></pre>
+</div>
+</div>
+<section id="data-preprocessing-for-modeling" class="cell markdown"
+id="qgWd3__Pgb21">
+<h2><strong>Data</strong> <strong>Preprocessing</strong>
+<strong>for</strong> <strong>Modeling</strong></h2>
+<p>Convert categorical features to numeric values using one-hot
+encoding.</p>
+</section>
+<div class="cell code" data-execution_count="11" id="C1ZilqI9rCYw">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert categorical features to numeric using one-hot encoding</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>df_encoded <span class="op">=</span> pd.get_dummies(df, drop_first<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Define the target variable</span></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>target_variable <span class="op">=</span> <span class="st">&#39;Churn Value&#39;</span></span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Split the data into training and testing sets</span></span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split</span>
+<span id="cb8-9"><a href="#cb8-9" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df_encoded.drop(target_variable, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb8-10"><a href="#cb8-10" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> df_encoded[target_variable]</span>
+<span id="cb8-11"><a href="#cb8-11" aria-hidden="true" tabindex="-1"></a>X_train, X_test, y_train, y_test <span class="op">=</span> train_test_split(X, y, test_size<span class="op">=</span><span class="fl">0.2</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb8-12"><a href="#cb8-12" aria-hidden="true" tabindex="-1"></a></span></code></pre></div>
+</div>
+<div class="cell markdown" id="XhwDXkyuoLfN">
+<p><strong>Explanation</strong>:</p>
+<p><strong>Define</strong> <strong>Target</strong>
+<strong>Variable</strong>: The target_variable is set to 'Churn
+Value'.</p>
+<p><strong>Split</strong> <strong>Data</strong>: The dataset is split
+into features (X) and target (y), then into training and testing
+sets.</p>
+<p><strong>Train</strong> <strong>Model</strong>: The
+RandomForestClassifier is trained on the training data.</p>
+<p><strong>Evaluate</strong> <strong>Model</strong>: The model is
+evaluated, and the accuracy, confusion matrix, and classification report
+are printed.</p>
+<p><strong>Feature</strong> <strong>Importance</strong>: The importance
+of each feature in making predictions is analyzed and displayed.</p>
+</div>
+<div class="cell markdown" id="5lHgw7LprbcR">
+
+</div>
+<section id="model-building-and-evaluation" class="cell markdown"
+id="OVGXDWvzrdkw">
+<h2><strong>Model</strong> <strong>Building</strong>
+<strong>and</strong> <strong>Evaluation</strong></h2>
+<p>Train a Random Forest model and evaluate its performance on the test
+set.</p>
+</section>
+<div class="cell markdown" id="PQXjGTvSpCnZ">
+
+</div>
+<div class="cell code" data-execution_count="12"
+data-colab="{&quot;base_uri&quot;:&quot;https://localhost:8080/&quot;}"
+id="rHBUNxXRsdHP" data-outputId="156cceba-f7df-467d-9952-4fbef312c391">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Train a Random Forest model</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestClassifier</span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> RandomForestClassifier(random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>model.fit(X_train, y_train)</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Evaluate the model</span></span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> accuracy_score, confusion_matrix, classification_report</span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>y_pred <span class="op">=</span> model.predict(X_test)</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f&quot;Accuracy: </span><span class="sc">{</span>accuracy_score(y_test, y_pred)<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Confusion Matrix:&quot;</span>)</span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(confusion_matrix(y_test, y_pred))</span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Classification Report:&quot;</span>)</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(classification_report(y_test, y_pred))</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a><span class="co"># Feature importance analysis</span></span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>importances <span class="op">=</span> model.feature_importances_</span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>feature_names <span class="op">=</span> X.columns</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>feature_importances <span class="op">=</span> pd.DataFrame({<span class="st">&#39;Feature&#39;</span>: feature_names, <span class="st">&#39;Importance&#39;</span>: importances})</span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>feature_importances <span class="op">=</span> feature_importances.sort_values(by<span class="op">=</span><span class="st">&#39;Importance&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Feature Importances:&quot;</span>)</span>
+<span id="cb9-21"><a href="#cb9-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(feature_importances)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Accuracy: 0.992902767920511
+Confusion Matrix:
+[[1009    0]
+ [  10  390]]
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.99      1.00      1.00      1009
+           1       1.00      0.97      0.99       400
+
+    accuracy                           0.99      1409
+   macro avg       1.00      0.99      0.99      1409
+weighted avg       0.99      0.99      0.99      1409
+
+Feature Importances:
+                                       Feature  Importance
+16386                          Churn Label_Yes    0.191247
+16387  Churn Reason_Attitude of support person    0.177190
+6                                  Churn Score    0.133688
+4                                Tenure Months    0.024244
+9836              Internet Service_Fiber optic    0.014561
+...                                        ...         ...
+11213                     Total Charges_389.95    0.000000
+11209                      Total Charges_389.1    0.000000
+11208                      Total Charges_388.6    0.000000
+11206                      Total Charges_387.7    0.000000
+0                                        Count    0.000000
+
+[16406 rows x 2 columns]
+</code></pre>
+</div>
+</div>
+<section id="conclusion" class="cell markdown" id="q1yGKBB_sw1i">
+<h2><strong>Conclusion</strong></h2>
+<h3 id="summarizing-findings"><strong>Summarizing</strong>
+<strong>Findings</strong></h3>
+<p>Based on the analysis, several factors such as customer service
+calls, contract type, and monthly charges were found to be significant
+indicators of customer churn. The predictive model achieved an accuracy
+of 0.99%, with feature importance analysis highlighting the key drivers
+of churn.</p>
+<h3 id="discussing-the-impact-of-the-model"><strong>Discussing</strong>
+<strong>the</strong> <strong>Impact</strong> <strong>of</strong>
+<strong>the</strong> <strong>Model</strong></h3>
+<p>The predictive model can significantly aid the telecom company in
+identifying high-risk customers. By targeting these customers with
+retention strategies, the company can reduce churn rates, thereby
+increasing customer retention and boosting profitability.</p>
+<h3
+id="potential-areas-for-improvement-and-future-work"><strong>Potential</strong>
+<strong>Areas</strong> <strong>for</strong> <strong>Improvement</strong>
+<strong>and</strong> <strong>Future</strong> <strong>Work</strong></h3>
+<p>Future work can focus on:</p>
+<ol>
+<li>Incorporating additional data sources such as customer feedback and
+social media sentiment.</li>
+<li>Enhancing model performance through hyperparameter tuning and using
+advanced algorithms like ensemble methods.</li>
+<li>Developing a real-time churn prediction system that integrates with
+the company's CRM for immediate action.</li>
+</ol>
+</section>
+</body>
+</html>
